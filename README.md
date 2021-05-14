@@ -19,8 +19,9 @@ over time and eventually impair the module efficiency.<br/>
 # Dependencies 
 - _python 3.7_
 - _tensorflow 2.x_ ( it includes Keras )
-- _pandas_
+- _pandas_ 
 - _shutil_
 - _split-folders_
 - _matplotlib_
 
+# 
