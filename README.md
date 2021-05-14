@@ -33,5 +33,9 @@ extracted from high resolution EL images of mono-crystalline and multicrystallin
 All images are normalized with respect to size and perspective, stored in the `/Data/Original_Data` directory<br/>
 and the corresponding labels in `/Data/labels.csv`.
 
+# Code Structure
+
+**1. Data preprocessing** : you can set your own parameters here  
+ 
 
 
