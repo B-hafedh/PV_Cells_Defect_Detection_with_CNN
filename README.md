@@ -24,4 +24,8 @@ over time and eventually impair the module efficiency.<br/>
 - _split-folders_
 - _matplotlib_
 
-# 
+# Dataset
+The dataset contains 2,624 samples of 300x300 grayscale images of functional and defective solar cells<br/>
+extracted from high resolution EL images of mono-crystalline and multicrystalline PV modules<br/>
+All images are normalized with respect to size and perspective, stored in the <br/>
+
