@@ -36,7 +36,8 @@ and the corresponding labels in `/Data/labels.csv`.
 # Code Structure
 
 **1. Data preprocessing** : 
-- Data split :
+- Data split : `/Data_preprocessing/Data_split.py` contains the split process
+-  
  
 
 
