@@ -51,6 +51,10 @@ Run the following commands to load the visualization dashboard :<br/>
 `%tensorboard --logdir /content/tensor_board` <br/>
 
 
+![image](https://user-images.githubusercontent.com/84082577/118341060-ab6e3800-b515-11eb-92e9-70b05515cc1f.png)
+
+
+
 
   
   
