@@ -43,6 +43,15 @@ and the corresponding labels in `/Data/labels.csv`.
    we apply transfer learning from the ResNet50 pre-trained model based on ImageNet to desing a new classifier <br/>
    compatible with our dataset.<br/>
    The `/Models` directory contains the modified ResNet50 architecture.
+   
+# Results
+We use the tensorboard callback to visulize and evaluate our model accuracy and loss.<br/>
+Run the following commands to load the visualization dashboard :<br/>
+`%load_ext tensorboard` <br/>
+`%tensorboard --logdir /content/tensor_board` <br/>
+
+
+
   
   
  
