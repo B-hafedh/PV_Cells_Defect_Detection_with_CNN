@@ -37,7 +37,12 @@ and the corresponding labels in `/Data/labels.csv`.
 
 **1. Data preprocessing** : 
 - Data split : `/Data_preprocessing/Data_split.py` contains the split process
-- Data augmentation : set your own parameters here `/Data_preprocessing/Data_augmentation.py`
+- Data augmentation : set your own parameters (rotation, shift, flip ...) here `/Data_preprocessing/Data_augmentation.py`
+
+**2. Model creation** <br/>
+  we apply transfer learning from the ResNet50 pre-trained model based on ImageNet.
+  
+  
  
 
 
