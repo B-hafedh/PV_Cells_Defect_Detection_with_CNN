@@ -1,5 +1,7 @@
 import os 
 import pandas as pd
+import shutil
+import splitfolders 
 
 #import the labels csv file 
 labels_path='/content/cellsData.csv'
@@ -15,6 +17,23 @@ for index, row in df.iterrows():
     infected_list.append(row['image'][7:])
 
 images_path='/content/Original_Data'
+
+#add images directories to a list
+images_list=os.listdir(images_path)
+
+#copy infected cells to infected_path
+for i in range(0,len(images_list)):
+  if images_list[i] in infected_list:
+    file_directory=images_path+'/'+images_list[i]
+    shutil.copy(file_directory,'/content/drive/MyDrive/PV_cells_images/infected_cells')
+    
+  #copy uninfected cells to uninfected_path
+  else :
+    file_directory=images_path+'/'+images_list[i]
+    shutil.copy(file_directory,'/content/drive/MyDrive/PV_cells_images/uninfected_cells')
+ 
+#split DATA to 75% train and 25% test
+splitfolders.ratio("/content/drive/MyDrive/PV_cells_images",output="/content/drive/MyDrive/Splitted_pv_cells_dataV2",seed=1337, ratio=(.75, .25,)) #the seed makes splits reproducible.
 
 
 
