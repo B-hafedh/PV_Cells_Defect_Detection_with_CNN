@@ -40,3 +40,4 @@ splitfolders.ratio("/content/new_PV_cells_data",output="/content/Splitted_pv_cel
 
 
 
+
