@@ -35,7 +35,8 @@ and the corresponding labels in `/Data/labels.csv`.
 
 # Code Structure
 
-**1. Data preprocessing** : you can set your own parameters here  
+**1. Data preprocessing** : 
+- Data split :
  
 
 
