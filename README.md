@@ -37,7 +37,7 @@ and the corresponding labels in `/Data/labels.csv`.
 
 **1. Data preprocessing** : 
 - Data split : `/Data_preprocessing/Data_split.py` contains the split process
--  
+- Data augmentation : set your own parameters here `/Data_preprocessing/Data_augmentation.py`
  
 
 
